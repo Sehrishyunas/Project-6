@@ -1,0 +1,355 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.account {
+    position: relative;
+}
+
+.account .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    display: none;
+}
+
+.account .dropdown-content a {
+    display: block;
+    color: #fff;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url("https://media.istockphoto.com/id/1671131571/photo/hand-of-human-is-holding-painted-green-leaf-with-handshake-icon-environment-social-and.jpg?s=612x612&w=0&k=20&c=N11xXZwMCCyXBB4lpHSKR1ExaLK42FiFG4II3cRZEtM=") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 130px 0;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 10px 0 0;
+    font-size: 20px;
+}
+
+.hero a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    text-decoration: underline;
+}
+
+/* Membership Plans */
+.membership-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.plan {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 60px 40px;
+    width: 40%;
+}
+
+.plan h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 16px;
+    color: #33169c;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.plan .price {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.plan .price span {
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+
+.plan button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background: #0056b3;
+}
+
+/* Become Section */
+.become-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.become-box {
+    background: #a2a2a3;
+    padding: 40px 20px;
+    text-align: center;
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.become-box h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.become-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.become-btn:hover {
+    background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: #0056b3;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-columns .column {
+    width: 23%;
+}
+
+.footer-columns .column h4 {
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-columns .column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-columns .column ul li {
+    margin: 10px 0;
+}
+
+.footer-columns .column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-columns .column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-columns .column p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar .container.active .nav-links {
+        display: block;
+    }
+
+    .navbar .container.active .search-bar {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .membership-plans {
+        flex-direction: column;
+    }
+
+    .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .become-section {
+        flex-direction: column;
+    }
+
+    .become-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+    }
+
+    .footer-columns .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
